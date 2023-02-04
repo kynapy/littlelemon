@@ -1,3 +1,68 @@
-* {
-    border-bottom: 100px;
+body {
+    background-color: #EDEFEE;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+section {
+    display: flex;
+}
+
+#home article {
+    flex: 1;
+    margin-bottom: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+}
+
+footer div {
+    flex: 1;
+}
+
+main {
+    margin-bottom: 1rem;
+}
+
+#menu {
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color: blanchedalmond;
+    border-radius: 25px;
+}
+
+#menu article {
+    flex: 1;
+    color: grey;
+    margin-left: 20px;
+    display: grid;
+}
+
+#menu .desc {
+    font-size: x-small;
 }
