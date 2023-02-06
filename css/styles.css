@@ -57,11 +57,15 @@ nav li a {
 
 footer {
     display: flex;
-    text-align: center;
+
 }
 
 footer div {
     flex: 1;
+}
+
+footer div p {
+    text-align:right;
 }
 
 main {
