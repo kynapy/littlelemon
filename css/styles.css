@@ -1,3 +1,5 @@
+*{box-sizing: border-box;}
+
 body {
     background-color: #EDEFEE;
 }
@@ -39,7 +41,7 @@ nav li a {
 
 #articles {
     display: grid;
-    grid-template-areas: "article article article";
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #articles article {
@@ -71,15 +73,13 @@ main {
     margin-left: 1%;
     background-color: blanchedalmond;
     border-radius: 25px;
-    display: flex;
-    padding: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 #menu article {
     color: grey;
-    margin-left: 20px;
-    flex: 1;
-    margin-left: 3%;
+    padding: 8%;
 }
 
 #menu .desc {
