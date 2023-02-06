@@ -16,6 +16,11 @@ header > img {
     margin-right: auto;
 }
 
+nav {
+    background-color: darkslategrey;
+    border-radius: 25px;
+}
+
 nav ul {
     list-style: none;
     text-align: center;
@@ -25,12 +30,25 @@ nav li {
     display: inline-block;
 }
 
-section {
-    display: flex;
+nav li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
 }
 
-#home article {
+#articles {
+    display: grid;
+    grid-template-areas: "article article article";
+}
+
+#articles article {
     flex: 1;
+    background-color: blanchedalmond;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 1rem;
+    border-radius: 25px;
     margin-bottom: 1rem;
     margin-left: 5%;
     margin-right: 5%;
@@ -43,10 +61,6 @@ footer {
 
 footer div {
     flex: 1;
-}
-
-main {
-    margin-bottom: 1rem;
 }
 
 #menu {
@@ -65,4 +79,32 @@ main {
 
 #menu .desc {
     font-size: x-small;
+}
+
+#topImage {
+    background-image: url('./../images/booking.png');
+    background-position: 70% 70%;
+    border-radius: 25px;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+#topImage * {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#topImage h1 {
+    padding-top: 15px;
+}
+
+#aboutContainer {
+    background-color: blanchedalmond;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-radius: 25px;
+    margin-right: 2%;
+    margin-left: 2%;
 }
